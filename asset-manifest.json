@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-ts-blog-app/static/css/main.8dcda0f8.css",
+    "main.js": "/react-ts-blog-app/static/js/main.248ecd4b.js",
+    "static/media/trees.jpg": "/react-ts-blog-app/static/media/trees.e34d29dc8a441bf39ad5.jpg",
+    "index.html": "/react-ts-blog-app/index.html",
+    "main.8dcda0f8.css.map": "/react-ts-blog-app/static/css/main.8dcda0f8.css.map",
+    "main.248ecd4b.js.map": "/react-ts-blog-app/static/js/main.248ecd4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8dcda0f8.css",
+    "static/js/main.248ecd4b.js"
+  ]
+}

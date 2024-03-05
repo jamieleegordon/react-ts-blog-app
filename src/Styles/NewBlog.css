@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+.NewBlog {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .NewBlog h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(1, 71, 191);
+  }
+  
+  .NewBlog form {
+    margin-bottom: 20px;
+  }
+  
+  .NewBlog label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(1, 71, 191);
+    font-size: 20px;
+  }
+
+  .NewBlog .choose-file {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .NewBlog input[type="text"],
+  .NewBlog textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    resize: none; 
+    overflow-y: hidden; 
+    height: auto; 
+  }
+  
+  .NewBlog textarea {
+    height: auto; 
+    min-height: 150px; 
+  }
+  
+  .NewBlog button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .NewBlog button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .custom-file-upload {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    background-color: #007bff; 
+    color: #fff; 
+    border-radius: 5px;
+    cursor: pointer;
+    /* background: none; */
+}
+
+.custom-file-upload input[type="file"] {
+    display: none; 
+}
+
+.upload-icon {
+    background-size: cover; 
+    background-position: center;
+    width: 24px;
+    height: 24px; 
+}
